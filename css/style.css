@@ -1,0 +1,102 @@
+/*---------- GENERAL ------------*/
+
+
+body{
+  margin: 0;
+}
+ul{
+  padding: 0;
+  margin: 0;
+}
+.container{
+  width: 85%;
+  margin: 0 auto;
+}
+.table{
+  display: table;
+  width: 100%;
+}
+.table-cell{
+  display: table-cell;
+  vertical-align: middle;
+}
+article{
+  width: 50%;
+  text-align: center;
+  color: #fff;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+button{
+  background: transparent;
+  border:1px solid #42dca3;
+  padding: 10px;
+  color: #42dca3;
+  cursor: pointer;
+}
+button:hover{
+  background: #42dca3;
+  color: #000;
+}
+
+
+/*--------------------HEADER ---------------*/
+header{
+  background-image: url('../imgs/intro-bg.jpg');
+  background-position: bottom;
+  background-size: cover;
+  color: #fff;
+  height: 100vh;
+}
+header .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header  ul{
+  list-style: none;
+}
+header li{
+  display: inline-block;
+}
+header li a{
+  text-decoration: none;
+  color: #fff;
+}
+header h1,header p{
+  text-align: center;
+}
+header .table{
+  height: calc(100% - 60px);
+}
+ video{
+  height: 400px;
+}
+
+#progress{
+  background: red;
+  height: 30px;
+  border:5px solid red;
+}
+#progress div{
+  background: #fff;
+  height: 30px;
+  width: 0;
+}
+/*-----------About Section ----------------*/
+
+section.about,section.contact,footer{
+  background-color: #000;
+}
+/*---------------Downloads section -------------*/
+section.download{
+  background-image: url('../imgs/downloads-bg.jpg');
+  background-attachment: fixed;
+}
+
+/*-------FOOTER------------*/
+footer{
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+}
